@@ -1,4 +1,4 @@
-programmerings-utmaningar
+Programmerings träning
 =========================
 
-Programmerings utmaningar
+Yolo swag, right?
