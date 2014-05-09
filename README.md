@@ -22,8 +22,7 @@ Men du får gärna lägga till egna
 ### Lösta
 
  - [Casino](https://po.scrool.se/problems/casino) (Enkel)
-
- - <a href="https://po.scrool.se/problems/kontrollsiffra"> Person nummer </a> "Swagish"
+ - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra ) "Swagish" (Enkel :P)
 
 ### Olösta
 
