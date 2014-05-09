@@ -17,8 +17,16 @@ Kattis tillåter följande språk:
 * Hashquel
 
 Men du får gärna lägga till egna.
+<style>
 
-<h1 style="color:white;"> Strukturen är såhär /uppgift/namn.[språk suffix] </h1>
+#pingas
+{
+  text-shadow: 2px 2px #ff0000;
+}
+
+</style>
+
+<h1 id="pingas"> Strukturen är såhär /uppgift/namn.[språk suffix] </h1>
 
 ### Lösta
 
