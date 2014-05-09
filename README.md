@@ -18,7 +18,7 @@ Kattis tillåter följande språk:
 
 Men du får gärna lägga till egna.
 
-<h1 style="text-shadow: 2px 2px #ff0000;"> Strukturen är såhär /uppgift/namn.[språk suffix] </h1>
+<h1 style="color:white;"> Strukturen är såhär /uppgift/namn.[språk suffix] </h1>
 
 ### Lösta
 
