@@ -6,9 +6,9 @@ Yolo swag, right?
 
 ### Solved
 
- - (Casino)[https://po.scrool.se/problems/casino] (Enkel)
+ - [Casino](https://po.scrool.se/problems/casino) (Enkel)
 
 
 ### Unsolved
 
- - (Brädspelet)[https://po.scrool.se/problem?aid=179] (Svår)
+ - [Brädspelet](https://po.scrool.se/problem?aid=179) (Svår)
