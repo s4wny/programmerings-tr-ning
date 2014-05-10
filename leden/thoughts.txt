@@ -1,0 +1,4 @@
+-20 meter = 90s     +30s
+-5  meter = 60s     +0s
+0   meter = 70s     +10s
+10  meter = 90s     +20s
