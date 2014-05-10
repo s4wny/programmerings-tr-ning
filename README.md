@@ -5,7 +5,6 @@ Vi har gjort denhär mappen för att samla lösningar till olika kattis uppgifte
 för att ge ledtrådar för hur uppgifter ska lösas.
 
 Varsegod och lägg till egna lösningar i valfrit språk.
-
 Kattis tillåter följande språk:
 * C
 * C++
@@ -16,8 +15,9 @@ Kattis tillåter följande språk:
 * Objective-C
 * Hashquel
 
+Men du får gärna lägga till egna.
 
-Men du får gärna lägga till egna 
+Strukturen är såhär /uppgift/namn.[språk suffix]
 
 ### Lösta
 
