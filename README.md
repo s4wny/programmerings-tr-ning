@@ -13,7 +13,7 @@ Kattis tillåter följande språk:
 * Python 2 
 * Go 
 * Objective-C
-* Hashquel
+* [Haskell](http://learnyouahaskell.com/chapters)
 
 Men du får gärna lägga till egna.
 
@@ -22,7 +22,7 @@ Strukturen är såhär /uppgift/namn-[typ av lösning].(språk suffix)
 ### Lösta
 
  - [Casino](https://po.scrool.se/problems/casino) (Enkel)
- - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" (Enkel :P)
+ - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" :P (Enkel)
  - [Leden](https://po.scrool.se/problems/leden) (Enkel)
 
 ### Olösta
