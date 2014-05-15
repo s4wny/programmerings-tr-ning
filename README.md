@@ -22,7 +22,8 @@ Strukturen är såhär /uppgift/namn-[typ av lösning].(språk suffix)
 ### Lösta
 
  - [Casino](https://po.scrool.se/problems/casino) (Enkel)
- - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra ) "Swagish" (Enkel :P)
+ - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" (Enkel :P)
+ - [Leden](https://po.scrool.se/problems/leden) (Enkel)
 
 ### Olösta
 
