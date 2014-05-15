@@ -17,7 +17,7 @@ Kattis tillåter följande språk:
 
 Men du får gärna lägga till egna.
 
-Strukturen är såhär `/uppgiftens id namn/ditt namn(-typ av lösning / version).[språk suffix]`
+Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[språk suffix]`
 
 ### Lösta
 
