@@ -7,7 +7,7 @@ för att ge ledtrådar för hur uppgifter ska lösas.
 Varsegod och lägg till egna lösningar i valfrit språk.
 Kattis tillåter följande språk:
 * C
-* C++
+* <a href="http://www.cplusplus.com/">C++</a>
 * C# 
 * Java 
 * Python 2 
