@@ -25,6 +25,9 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" :P (Enkel)
  - [Leden](https://po.scrool.se/problems/leden) (Enkel)
 
+
+ - [Dansmatta](https://po.scrool.se/problems/dansmatta) (Medel)
+
 ### Olösta
 
  - [Brädspelet](https://po.scrool.se/problem?aid=179) (Svår)
