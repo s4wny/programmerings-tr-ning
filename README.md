@@ -21,13 +21,19 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
 
 ### Lösta
 
- - [Casino](https://po.scrool.se/problems/casino) (Enkel)
- - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" :P (Enkel)
- - [Leden](https://po.scrool.se/problems/leden) (Enkel)
 
+##### Enkla
 
- - [Dansmatta](https://po.scrool.se/problems/dansmatta) (Medel)
+ - [Casino](https://po.scrool.se/problems/casino)
+ - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" :P
+ - [Leden](https://po.scrool.se/problems/leden)
+
+##### Medel
+
+ - [Dansmatta](https://po.scrool.se/problems/dansmatta)
+
 
 ### Olösta
 
- - [Brädspelet](https://po.scrool.se/problem?aid=179) (Svår)
+##### Svåra
+ - [Brädspelet](https://po.scrool.se/problem?aid=179)
