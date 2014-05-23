@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
  
+ /* a more C ish solution with C input and vintage qsort, it is realy fast*/
+ 
+ 
 int cmpfunc (const void * a, const void * b)
 {
    return ( *(int*)a - *(int*)b );
@@ -13,7 +16,7 @@ int main() {
         long arr[100000];
         scanf("%d %dl", &N, &T);
  
-        for(long i = 0; i < N; i++)
+        for(int i = 0; i < N; i++)
         {
                 long x,y;
                 scanf("%li %li",&x,&y);
@@ -22,9 +25,9 @@ int main() {
  
         qsort(&arr,N,sizeof(long), cmpfunc);
  
-        long ans = 0;
+        int ans = 0;
  
-        for(long i = 0; i < N; i++)
+        for(int i = 0; i < N; i++)
         {
                 T -= arr[i]*2;
                 if(T<0)
