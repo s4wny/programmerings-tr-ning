@@ -27,6 +27,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Casino](https://po.scrool.se/problems/casino)
  - [Kontrollsiffra](https://po.scrool.se/problems/kontrollsiffra) "Swagish" :P
  - [Leden](https://po.scrool.se/problems/leden)
+ - [Limousinen](https://po.scrool.se/problems/limousinen)
 
 ##### Medel
 
