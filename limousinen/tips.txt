@@ -1,0 +1,4 @@
+This problem is a bit tricky for some languages if you are not used to them, check the input limit and make sure that the variable is big enough ( not a problem for python etc).
+
+To solve this problem think about absolute cordinates and how you can use them, distance can be a mesurement of time.
+
