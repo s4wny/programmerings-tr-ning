@@ -14,12 +14,12 @@ int main() {
     int N;
         long T;
         long arr[100000];
-        scanf("%d %dl", &N, &T);
+        scanf("%d %ld", &N, &T);
  
         for(int i = 0; i < N; i++)
         {
                 long x,y;
-                scanf("%li %li",&x,&y);
+                scanf("%ld %ld",&x,&y);
                 arr[i] = abs(x) + abs(y);
         }
  
@@ -36,7 +36,7 @@ int main() {
                         ans++;
         }
  
-        printf("%li", ans);
+        printf("%i", ans);
  
         return 0;
 }
