@@ -4,7 +4,7 @@ from sys import stdin;
 decrypted    = [];
 
 # Input
-data 		 = stdin.read().split();
+data         = stdin.read().split();
 alphabetLen  = int(data.pop(0));
 encrypted    = data.pop(len(data)-1);
 alphabet     = data;
