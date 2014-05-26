@@ -28,6 +28,11 @@
 --
 -- WTF HASKELL??
 
+--
+-- disclaimer: I don't know so much about haskell, probably there is a better and faster way. Probably it has to do with these monads and famp and >>= >> stuff.
+--
+
+
 import System.IO (getContents)
 import Data.List (sort)
 
@@ -35,26 +40,25 @@ import Data.List (sort)
 -- Input parse helper
 toInt :: String -> Integer
 toInt xs = toInt' xs (length xs - 1) 
+    where
+        toInt' :: String -> Int -> Integer
+        toInt' []     _    = 0
+        toInt' (x:xs) base = toInteger ((chrToInt x)*10^base) + toInt' xs (base-1)
 
-toInt' :: String -> Int -> Integer
-toInt' []     _    = 0
-toInt' (x:xs) base = toInteger ((chrToInt x)*10^base) + toInt' xs (base-1)
+        chrToInt :: Char -> Int
+        chrToInt str
+            | str == '0' = 0
+            | str == '1' = 1
+            | str == '2' = 2
+            | str == '3' = 3
+            | str == '4' = 4
+            | str == '5' = 5
+            | str == '6' = 6
+            | str == '7' = 7
+            | str == '8' = 8
+            | str == '9' = 9
+            | otherwise  = 0 -- (negative numbers, '-')
 
-chrToInt :: Char -> Int
-chrToInt str
-    | str == '0' = 0
-    | str == '1' = 1
-    | str == '2' = 2
-    | str == '3' = 3
-    | str == '4' = 4
-    | str == '5' = 5
-    | str == '6' = 6
-    | str == '7' = 7
-    | str == '8' = 8
-    | str == '9' = 9
-    | otherwise  = 0 -- (negative numbers, '-')
-
-------------------------------------------------------
 
 -- cordinates -> time
 cordsToTime :: [Integer] -> [Integer]
