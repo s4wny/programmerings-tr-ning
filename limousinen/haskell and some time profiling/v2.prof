@@ -1,0 +1,35 @@
+	Mon May 26 19:30 2014 Time and Allocation Profiling Report  (Final)
+
+	   v2.exe +RTS -p -RTS
+
+	total time  =       19.32 secs   (19325 ticks @ 1000 us, 1 processor)
+	total alloc = 9,344,582,448 bytes  (excludes profiling overheads)
+
+COST CENTRE     MODULE    %time %alloc
+
+toInt           Main       73.7   65.6
+main.stdin'     Main       15.4   22.4
+main.summedList Main        8.9    7.6
+main            Main        1.5    3.8
+
+
+                                                               individual     inherited
+COST CENTRE       MODULE                     no.     entries  %time %alloc   %time %alloc
+
+MAIN              MAIN                        40           0    0.0    0.0   100.0  100.0
+ main             Main                        81           0    1.5    3.8   100.0  100.0
+  main.\          Main                        89     1000000    0.1    0.1     0.1    0.1
+  main.summedList Main                        87           1    8.9    7.6     9.3    8.1
+   cordsToTime    Main                        88     1000001    0.4    0.5     0.4    0.5
+  main.cords      Main                        86           1    0.0    0.0     0.0    0.0
+  main.stdin'     Main                        83           1   15.4   22.4    89.2   87.9
+   toInt          Main                        85           0   73.7   65.6    73.7   65.6
+  main.time       Main                        82           1    0.0    0.0     0.0    0.0
+ CAF              GHC.IO.Encoding.CodePage    65           0    0.0    0.0     0.0    0.0
+ CAF              GHC.IO.Handle.Internals     64           0    0.0    0.0     0.0    0.0
+ CAF              Text.Read.Lex               59           0    0.0    0.0     0.0    0.0
+ CAF              GHC.IO.Encoding             57           0    0.0    0.0     0.0    0.0
+ CAF              GHC.IO.Handle.FD            50           0    0.0    0.0     0.0    0.0
+ CAF              Main                        47           0    0.0    0.0     0.0    0.0
+  toInt           Main                        84           1    0.0    0.0     0.0    0.0
+  main            Main                        80           1    0.0    0.0     0.0    0.0
