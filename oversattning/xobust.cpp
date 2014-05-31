@@ -6,9 +6,10 @@ using namespace std;
 
 typedef unsigned int uint;
 
-std::unordered_map<uint, string> its; //int to string
-std::unordered_map<string, uint> sti; //string to int
+std::unordered_map<uint, string> itsa; //int to string
+std::unordered_map<string, uint> stia; //string to int
 
+std::unordered_map<string, uint> stib; //string to int
 
 uint arr[50000];
 
@@ -26,31 +27,30 @@ int main() {
         
         uint j,k;
         
-        if(sti.count(a) == 0)
+        if(stia.count(a) == 0)
         {
-            its[i]=a;
-            sti[a]=i;
+            itsa[i]=a;
+            stia[a]=i;
             j = i+1;
         }else
         {
-            j = arr[sti[a]];
+            j = arr[stia[a]];
         }
         
         arr[i] = j;
         
-        if(sti.count(b) == 0)
+        if(stib.count(b) == 0)
         {
-            its[i+1]=b;
-            sti[b]=i+1;
+            stib[b]=i+1;
             k=i;
         }else
         {
-            k = arr[sti[b]];
+            k = arr[stib[b]];
         }
         
         arr[i+1] = k;
     }
-
+    
     // Todo länkad list arkitektur
     string result = "";
     
@@ -60,15 +60,15 @@ int main() {
     for (unsigned long i = 0; i<B; i++) {
         string s;
         cin >> s;
-        uint w = sti[s];
+        uint w = stia[s];
         
         while (w != arr[arr[w]]) {
             w = arr[arr[w]];
         }
         if(i==B-1)
-            result += its[w];
+            result += itsa[w];
         else
-            result += its[w] + " ";
+            result += itsa[w] + " ";
     }
     
     cout<<result;
