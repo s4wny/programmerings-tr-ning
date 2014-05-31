@@ -37,5 +37,9 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
 
 ### Olösta
 
+##### Medelsvår
+- [Översättning](https://po.scrool.se/problems/oversattning)
+
 ##### Svåra
  - [Brädspelet](https://po.scrool.se/problem?aid=179)
+ 
