@@ -4,7 +4,7 @@
 
 using namespace std;
 
-typedef unsigned int uint;
+typedef unsigned int uint; // ignore this no point in using uint
 
 std::unordered_map<uint, string> itsa; //int to string
 std::unordered_map<string, uint> stia; //string to int
