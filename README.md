@@ -30,15 +30,13 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Limousinen](https://po.scrool.se/problems/limousinen)
  - [Vikingahackare](https://po.scrool.se/problems/vikingahackare)
 
-##### Medel
+##### Medelsvåra
 
  - [Dansmatta](https://po.scrool.se/problems/dansmatta)
+ - [Översättning](https://po.scrool.se/problems/oversattning)
 
 
 ### Olösta
-
-##### Medelsvår
-- [Översättning](https://po.scrool.se/problems/oversattning)
 
 ##### Svåra
  - [Brädspelet](https://po.scrool.se/problem?aid=179)
