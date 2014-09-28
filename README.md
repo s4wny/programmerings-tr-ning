@@ -35,6 +35,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Dansmatta](https://po.scrool.se/problems/dansmatta)
  - [Översättning](https://po.scrool.se/problems/oversattning)
  - [Fotografen](https://po.scrool.se/problems/fotografen)
+ - [Plocka äpplen](https://po.kattis.com/problems/apples)
 
 ### Olösta
 
