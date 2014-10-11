@@ -1,0 +1,30 @@
+Java memory model
+
+32 bit pointer 4 bytes
+64 bit pointer 8 bytes
+
+type	bytes
+bolean  1 
+byte    1 
+char	2
+int		4
+float	4
+long	8
+double	8
+
+
+char[]	2N+24
+int[]	4N+24
+double[] 8N+24
+
+type*N + 24
+
+2d array
+~ M*N
+
+
+Object overhead 16 bytes
+Reference 8 bytes
+Padding Each ovject uses a multipel of 8 byres
+
+String 2N+64 bytes
