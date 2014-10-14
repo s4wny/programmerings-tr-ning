@@ -49,7 +49,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [DFS/BFS tutorial](https://www.youtube.com/watch?v=zLZhSSXAwxI)
  - [Rita upp grafer](http://illuminations.nctm.org/Activity.aspx?id=3550)
  - [Massa algorithmer och datastrukturer visualiserade](http://www.comp.nus.edu.sg/~stevenha/visualization/)
- - [Tävlingprogrammerings - Den ultimata boken som kommer lära dig allt och lite till](https://sites.google.com/site/stevenhalim/) (å andra sidan har boken typ +3000 uppgifter så tro inte att du läser igenom boken på ett år)
+ - [Tävlingprogrammerings - Den ultimata boken som kommer lära dig allt och lite till](https://sites.google.com/site/stevenhalim/) (å andra sidan har boken typ +3000 uppgifter så tro inte att du läser igenom boken på ett år, kan vara tungläst med andra ord) 
  - [Topcoder, massa guider](http://www.topcoder.com/tc?d1=tutorials&d2=alg_index&module=Static)
 
 
