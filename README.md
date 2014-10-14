@@ -29,6 +29,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Leden](https://po.scrool.se/problems/leden)
  - [Limousinen](https://po.scrool.se/problems/limousinen)
  - [Vikingahackare](https://po.scrool.se/problems/vikingahackare)
+ - [Gruppindelning](https://po.kattis.com/problems/gruppindelning) Grafproblem. Avgör om graferna sitter ihop.
 
 ##### Medelsvåra
 
@@ -42,3 +43,6 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
 ##### Svåra
  - [Brädspelet](https://po.scrool.se/problem?aid=179)
  
+
+
+
