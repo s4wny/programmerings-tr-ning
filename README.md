@@ -44,5 +44,26 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Brädspelet](https://po.scrool.se/problem?aid=179)
  
 
+### Länkar
+ 
+ - [DFS/BFS tutorial](https://www.youtube.com/watch?v=zLZhSSXAwxI)
+ - [Rita upp grafer](http://illuminations.nctm.org/Activity.aspx?id=3550)
+ - [Massa algorithmer och datastrukturer visualiserade](http://www.comp.nus.edu.sg/~stevenha/visualization/)
+ - [Tävlingprogrammerings - Den ultimata guiden som kommer lära dig allt och lite till](https://sites.google.com/site/stevenhalim/) 
+ - Topcoder har en del artiklar
+
+
+*Awesomenes slides av Johan Sannemo och Aron Granberg:*
+
+ - [BFS/DFS](https://docs.google.com/presentation/d/1-ypeGvMyR1Btxp2O2H0HOn8A-5ziTKQ5W132xTJLe4k/edit?usp=drive_web)
+ - [Rekursion och DP](https://docs.google.com/presentation/d/1860ob2XMpu0p0j1Z_DMZK2vgSt8bGYPIqKk0RQTRhcY/edit?usp=drive_web)
+ - [Giriga algoritmer](https://docs.google.com/presentation/d/18InEII_CO-h2kb31BCmVk5fmcWlc4oUJ6dgiJOyJW1o/edit?usp=drive_web)
+ - [Grafteori](https://docs.google.com/presentation/d/15dIXogh207im8cgTZTnXZ3hXB8y0YE5OxAKVYcUZexI/edit?usp=drive_web)
+ - [Bruteforce (complete search)](https://docs.google.com/presentation/d/1ScPMm7pzwEBeQ6feH77aJON0iyCuow6CurRGvB93KY4/edit?usp=drive_web)
+ - [Presentation STL](https://docs.google.com/presentation/d/1MKEftiX8XLq1hh1UipoFstanph46hRmE_5VSv0yiMmA/edit)
+ - [GDB (debbuging)](https://docs.google.com/presentation/d/1SspYfp3maQP4ZO6fD3sXdU73zn42RHXTpktmGfkT-hI/edit#slide=id.p)
+ - [Tävlingsprogrammering intro](https://docs.google.com/presentation/d/1OeUTd3obslhn1t9DG5lZCTfUY5lVHFgnrgSvMly0kz8/edit?usp=drive_web)
+ - [C++ intro](https://docs.google.com/presentation/d/1D0574K7FWW9YsPTCSYCSFFkY_qbSY-SEWbk5kK_IVdw/edit?usp=drive_web)
+
 
 
