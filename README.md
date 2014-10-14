@@ -1,5 +1,5 @@
 Programmerings träning
-=========================
+======================
 
 Vi har gjort denhär mappen för att samla lösningar till olika kattis uppgifter 
 för att ge ledtrådar för hur uppgifter ska lösas.
@@ -44,16 +44,16 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Brädspelet](https://po.scrool.se/problem?aid=179)
  
 
-### Länkar
+## Länkar
  
  - [DFS/BFS tutorial](https://www.youtube.com/watch?v=zLZhSSXAwxI)
  - [Rita upp grafer](http://illuminations.nctm.org/Activity.aspx?id=3550)
  - [Massa algorithmer och datastrukturer visualiserade](http://www.comp.nus.edu.sg/~stevenha/visualization/)
- - [Tävlingprogrammerings - Den ultimata guiden som kommer lära dig allt och lite till](https://sites.google.com/site/stevenhalim/) 
- - Topcoder har en del artiklar
+ - [Tävlingprogrammerings - Den ultimata boken som kommer lära dig allt och lite till](https://sites.google.com/site/stevenhalim/) (å andra sidan har boken typ +3000 uppgifter så tro inte att du läser igenom boken på ett år)
+ - [Topcoder, massa guider](http://www.topcoder.com/tc?d1=tutorials&d2=alg_index&module=Static)
 
 
-*Awesomenes slides av Johan Sannemo och Aron Granberg:*
+Awesomenes slides av Johan Sannemo och Aron Granberg:
 
  - [BFS/DFS](https://docs.google.com/presentation/d/1-ypeGvMyR1Btxp2O2H0HOn8A-5ziTKQ5W132xTJLe4k/edit?usp=drive_web)
  - [Rekursion och DP](https://docs.google.com/presentation/d/1860ob2XMpu0p0j1Z_DMZK2vgSt8bGYPIqKk0RQTRhcY/edit?usp=drive_web)
