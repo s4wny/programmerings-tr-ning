@@ -32,8 +32,11 @@ std::queue<int> bfsQ;
 std::map<string, int> namel;
 
 
+//last unused id
 int nextint;
 
+
+//returns the id of the autur
 int id(string s)
 {
     if(namel.find(s) == namel.end())
@@ -47,18 +50,19 @@ int id(string s)
 int main()
 {
     nextint = 0; // set the first id in the lookup table
-    
+
     std::ios_base::sync_with_stdio(false);
     
     int n,m;
     
     cin >> n >> m;
     
-    dist.assign(n+100, -1);
+    dist.assign(n+1, -1);
 
+    //Get all articles
     for(int i = 0; i<m; i++)
     {
-        int num;
+        int num; //number of colaborators
         cin >> num;
         
         vi temp; // temporary list to put all the article authors in
@@ -72,18 +76,21 @@ int main()
             temp.push_back(p);
         }
         
+        //Connect all pairs of authurs
         for(int a : temp)
             for(int b: temp)
                 if(a != b)
                     adjlist[a].push_back(b);
     }
     
+    
+    //prepare dfs
     int ERDOS = id("ERDOS");
-
     dist[ERDOS] = 0;
     
     bfsQ.emplace(ERDOS);
     
+    //DFS
             while(!bfsQ.empty())
 			{
                 
@@ -101,7 +108,7 @@ int main()
 				}
 			}
 
-    
+    //List results
     
     for (auto it=namel.begin(); it!=namel.end(); ++it){
         std::cout << it->first << " " << dist[it->second] << '\n';
