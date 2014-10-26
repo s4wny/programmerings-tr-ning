@@ -30,6 +30,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Limousinen](https://po.scrool.se/problems/limousinen)
  - [Vikingahackare](https://po.scrool.se/problems/vikingahackare)
  - [Gruppindelning](https://po.kattis.com/problems/gruppindelning) Grafproblem. Avgör om graferna sitter ihop.
+ - [Tennisklubben](https://po.kattis.com/problems/tennis) Grafproblem / SSSP problem. Använd BFS + en distans tabell.
 
 ##### Medelsvåra
 
