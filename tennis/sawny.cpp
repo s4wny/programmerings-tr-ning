@@ -24,6 +24,7 @@ typedef std::vector<vi> vvi;
 using namespace std;
 
 int main() {
+    ios_base::sync_with_stdio(false);
     wbstdin;
 
     //Read all variables and build an Adjacency List
@@ -39,7 +40,6 @@ int main() {
     theQueue.push(K);
     vi dist(N, INF); // We'll  build a table with the distance from vertex K to everyother vertex.
     dist[K] = 0;
-    vi parent(N);
 
     //BFS
     while(!theQueue.empty()) {
@@ -49,7 +49,6 @@ int main() {
         for(int vertex : adjacencyList[parentVertex]) {
             if(dist[vertex] == INF) { //Unvisited
                 theQueue.push(vertex);
-                parent[vertex] = parentVertex;
                 dist[vertex]   = dist[parentVertex] + 1;
             }
         }
