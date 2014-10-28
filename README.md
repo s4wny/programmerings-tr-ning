@@ -39,6 +39,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Översättning](https://po.scrool.se/problems/oversattning)
  - [Fotografen](https://po.scrool.se/problems/fotografen)
  - [Plocka äpplen](https://po.kattis.com/problems/apples)
+ - [Åtta spelet](https://po.kattis.com/problems/attaspelet) Grafproblem / SSSP problem. Svårare än Erdös nummer. Implicit graph istället för explicit.
 
 ### Olösta
 
