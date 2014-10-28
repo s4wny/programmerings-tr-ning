@@ -52,12 +52,9 @@ int main() {
     ios_base::sync_with_stdio(false);
     wbstdin;
 
-    int x, INF = -1;
-    for(int i = 8; i >= 0; --i) {
-        cin >> x;
+    int x;
+    while(!(cin >> x).eof())
         b.push_back(x);
-    }
-
 
     //Special case
     if(b == finalB) {
