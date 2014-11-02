@@ -20,9 +20,10 @@ bool rev (int i,int j) { return (i>j); }
 using namespace std;
 
 
+
 //data structures
 vector<int> cube;
-vector<int> goal = {1,2,3,4,5,6,7,8,0};
+vector<int> goal;
 
 
 std::queue<pair<vi, int>> bfsQ;
@@ -38,7 +39,7 @@ inline void connect(vi & current, int& hole, int newpos)
         vi new_mat(current);
         new_mat[newpos] = 0;
         new_mat[hole] = current[newpos];
-        if(dist[new_mat] == -1)
+        if(dist.find(new_mat) == dist.end())
         {
             bfsQ.push(make_pair(new_mat, newpos));
             dist[new_mat] = dist[current] + 1;
@@ -49,37 +50,34 @@ inline void connect(vi & current, int& hole, int newpos)
 
 
 int main()
-{    
+{
+    
+
+    std::ios_base::sync_with_stdio(false);
+    
     int hole;
 
     vector<int> cb;
     
-    
-    //dist to each matrix
-    for(int i = 0; i<9; i++)
-    {
-        cb.push_back(i);
-    }
-    
-    do {
-        dist[cb] = -1;
-    }while (next_permutation(cb.begin(), cb.end()));
-    
-
     
     goal.assign(9, 0);
     
     //Get the cube
     for(int i = 0; i<9; i++)
     {
-        int num; 
+        goal[i] = 1+i;
+        int num; //number of colaborators
         cin >> num;
+        
         if(num == 0)
             hole = i;
         
         cube.push_back(num);
+        
     }
    
+    goal[8] = 0;
+
     
     bfsQ.emplace(make_pair(cube, hole));
     
@@ -87,23 +85,20 @@ int main()
     
     
     //BFS
-    while(!bfsQ.empty())
-	{
-        
-		vi current = bfsQ.front().first; //curent vertex
-        hole = bfsQ.front().second;
-		bfsQ.pop();
-        
-        if(current == goal)
-            break;
-        
-        if(hole % 3 != 2)
-            connect(current, hole, hole+1);
-        if(hole % 3 != 0)
-            connect(current, hole, hole-1);
-		connect(current, hole, hole+3);
-        connect(current, hole, hole-3);
-	}
+            while(!bfsQ.empty())
+        	{
+                
+				vi current = bfsQ.front().first; //curent vertex
+                hole = bfsQ.front().second;
+				bfsQ.pop();
+                
+                if(hole % 3 != 2)
+                    connect(current, hole, hole+1);
+                if(hole % 3 != 0)
+                    connect(current, hole, hole-1);
+				connect(current, hole, hole+3);
+                connect(current, hole, hole-3);
+			}
     
     
     cout << dist[goal];
