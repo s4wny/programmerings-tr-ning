@@ -1,0 +1,83 @@
+Filerna är max 60m
+Max 200 bilar. 1-10 m långa.
+
+
+60/2 * 4 = 120 bilar får max plats.
+
+N 20
+L 40
+
+
+
+---
+Den första bilen spelar ingen roll var jag sätter.
+Ej den sista häller.
+---
+
+
+
+---
+Bäst är när man maxar en lane. Gärna 100% utan glapp
+
+---
+
+
+
+States:
+
+    Hela 2D matrixen med alla bilar.
+
+    memo[*2dmatrix*] = *count*
+
+    N? = 120
+
+
+
+------~~*
+
+Problemet är egentligen:
+
+Maxa antalet siffer sekvenser där summan blir 10. (x1 + x2 + x3 + N-1 = 10)
+3 sånna sekvenser.
+
+Sen lägg till de sista bilarna.
+
+
+
+Eller. Maxa 4 sekvenser så att summan i varje blir så hög som möjligt. Max 10.
+
+första kostar så som den säger.
+Nästa kostar det den säger + 1.
+Max L mkt.
+
+----------~~*
+
+Reaulsum min Max-8.
+Realsum max Max.
+Summan min 
+
+
+Summan totalt:
+
+Ex1: Max 20.
+Summan: 19
+Realsum: 15         (min possible 12)
+
+Ex2: Max 4
+Summan: 4 
+Realsum: 4
+
+Ex3: Max 40
+Summan: 39
+Reaulsum: 36
+
+
+Alltså ett sätt är att hitta alla tal där summan är min() är Max - 8 och max() är Max.
+Sen så loopar man bakåt och testar om varje går.
+Är bara 8 tester som mest.
+
+
+
+---
+
+Okej. Kolla Summan. -4 resten är +1. GG wp.
