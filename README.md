@@ -32,6 +32,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Gruppindelning](https://po.kattis.com/problems/gruppindelning) Grafproblem. Avgör om graferna sitter ihop.
  - [Tennisklubben](https://po.kattis.com/problems/tennis) Grafproblem / SSSP problem. Använd BFS + en distans tabell.
  - [Erdös-nummer](https://po.kattis.com/problems/erdos) Samma som tennisklubben, lite svårare.
+ - [Samla stenar](https://po.scrool.se/problems/samlastenar) Enkelt om du känner till [Ternary search](http://en.wikipedia.org/wiki/Ternary_search) eller [Golden section search](http://en.wikipedia.org/wiki/Golden_section_search). Annars är du lost.
 
 ##### Medelsvåra
 
@@ -40,7 +41,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Fotografen](https://po.scrool.se/problems/fotografen)
  - [Plocka äpplen](https://po.kattis.com/problems/apples)
  - [Åtta spelet](https://po.kattis.com/problems/attaspelet) Grafproblem / SSSP problem. Svårare än Erdös nummer. Implicit graph istället för explicit.
- - [Lastfärjan](https://po.scrool.se/problems/lastafarjan) *Du kommer dampa* ;)
+ - [Lastfärjan](https://po.scrool.se/problems/lastafarjan) Går att fuska till sig O(N) lösning. Riktiga lösningen är dock O(N^3) med DP.
 
 ### Olösta
 
@@ -56,6 +57,11 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Tävlingprogrammerings - Den ultimata boken som kommer lära dig allt och lite till](https://sites.google.com/site/stevenhalim/) (å andra sidan har boken typ +3000 uppgifter så tro inte att du läser igenom boken på ett år, kan vara tungläst med andra ord) 
  - [Topcoder, massa guider](http://www.topcoder.com/tc?d1=tutorials&d2=alg_index&module=Static)
 
+
+Urval av algoritmer vi stött på (inom parantes i hur många uppgifter):
+
+ - [Ternary search](http://en.wikipedia.org/wiki/Ternary_search) (1)
+ - [Golden section search](http://en.wikipedia.org/wiki/Golden_section_search) (1)
 
 Awesomenes slides av Johan Sannemo och Aron Granberg:
 
