@@ -14,7 +14,7 @@ int N;
 double xs[100000+1];
 double ys[100000+1];
 
-// Vår funktioner
+// Vår funktion, räknar ut distansen till alla stenar.
 double f(double x) {
     double dist = 0;
 
