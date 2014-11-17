@@ -21,7 +21,6 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
 
 ### Lösta
 
-
 ##### Enkla
 
  - [Casino](https://po.scrool.se/problems/casino)
@@ -33,6 +32,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Tennisklubben](https://po.kattis.com/problems/tennis) Grafproblem / SSSP problem. Använd BFS + en distans tabell.
  - [Erdös-nummer](https://po.kattis.com/problems/erdos) Samma som tennisklubben, lite svårare.
  - [Samla stenar](https://po.scrool.se/problems/samlastenar) Enkelt om du känner till [Ternary search](http://en.wikipedia.org/wiki/Ternary_search) eller [Golden section search](http://en.wikipedia.org/wiki/Golden_section_search). Annars är du lost.
+ - [Mångtydig Morse](https://po.scrool.se/problems/morse)
 
 ##### Medelsvåra
 
