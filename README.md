@@ -43,6 +43,7 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Plocka äpplen](https://po.kattis.com/problems/apples)
  - [Åtta spelet](https://po.kattis.com/problems/attaspelet) Grafproblem / SSSP problem. Svårare än Erdös nummer. Implicit graph istället för explicit.
  - [Lastfärjan](https://po.scrool.se/problems/lastafarjan) Går att fuska till sig O(N) lösning. Riktiga lösningen är dock O(N^3) med DP.
+ - [Brandlarmet](https://po.kattis.com/problems/brandlarmet) Grafproblem / SSSP.
 
 ### Olösta
 
@@ -63,6 +64,7 @@ Urval av algoritmer vi stött på (inom parantes i hur många uppgifter):
 
  - [Ternary search](http://en.wikipedia.org/wiki/Ternary_search) (1)
  - [Golden section search](http://en.wikipedia.org/wiki/Golden_section_search) (1)
+ - [Dijkstras algoritm](https://www.youtube.com/watch?v=8Ls1RqHCOPw) (3)
 
 Awesomenes slides av Johan Sannemo och Aron Granberg:
 
