@@ -34,6 +34,9 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Samla stenar](https://po.scrool.se/problems/samlastenar) Enkelt om du känner till [Ternary search](http://en.wikipedia.org/wiki/Ternary_search) eller [Golden section search](http://en.wikipedia.org/wiki/Golden_section_search). Annars är du lost.
  - [Mångtydig Morse](https://po.scrool.se/problems/morse)
  - [Röstköp (svår)](https://po.kattis.com/problems/rostkophard)
+ - [Spotify Connect](https://po.kattis.com/problems/spotifyconnect)
+ - [Kent-buggen](https://po.kattis.com/problems/kentbuggen)
+
 
 ##### Medelsvåra
 
@@ -44,12 +47,17 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Åtta spelet](https://po.kattis.com/problems/attaspelet) Grafproblem / SSSP problem. Svårare än Erdös nummer. Implicit graph istället för explicit.
  - [Lastfärjan](https://po.scrool.se/problems/lastafarjan) Går att fuska till sig O(N) lösning. Riktiga lösningen är dock O(N^3) med DP.
  - [Brandlarmet](https://po.kattis.com/problems/brandlarmet) Grafproblem / SSSP.
+ - [Hesthoppning](https://po.kattis.com/problems/hesthoppning) Grafproblem, använd DFS.
+ - [Plocka äpplen](https://po.kattis.com/problems/apples) 
+ - [Skridskor](https://po.kattis.com/problems/skridskor) Grafproblem / SSSP.
+
 
 ### Olösta
 
 ##### Svåra
  - [Brädspelet](https://po.scrool.se/problem?aid=179)
- 
+ - [Portaler](https://po.kattis.com/problems/portaler) 
+ - [Bergskedja](https://po.kattis.com/problems/bergskedja)
 
 ## Länkar
  
