@@ -16,7 +16,6 @@ using namespace std;
  
  */
 
-
 //största antalet protaler
 #define maxsize 50001
 
@@ -47,7 +46,6 @@ struct Group
     long add;
     
 };
-
 
 class Portal
 {
@@ -85,8 +83,6 @@ public:
 //Array som inehåller alla portaler
 Portal portals[maxsize];
 
-
-
 long Portal::dist(Portal &p) const
 {
     //Om de är i samma grupp
@@ -109,12 +105,10 @@ long Portal::dist(Portal &p) const
             else
                 return -1;
         }
-        
-        
+
     }
     else
     {
-        
         //Om det finns en väg mellan de två nodernas grupper
         if (group->merge.find(p.group->id) != group->merge.end())
         {
@@ -133,11 +127,8 @@ long Portal::dist(Portal &p) const
             return -1;
         
     }
-    
-    
     return -1;
 }
-
 
 //Första index för det nya index systemet
 long first;
@@ -164,7 +155,6 @@ inline Group * rec(long a, const long & low)
             {
                 //sätt nodens grupp till cykelns
                 return p->group = g;
-                
             }
             else
             {
@@ -176,8 +166,6 @@ inline Group * rec(long a, const long & low)
                 
                 return p->group;
             }
-            
-            
         }
         else
         {
@@ -214,11 +202,8 @@ inline Group * rec(long a, const long & low)
                 //Om noden finns på grenen justera dens index
                 p->new_index -= g->add;
             }
-            
             return p->group = g;
-            
         }
-        
     }
     else
     {
@@ -231,31 +216,24 @@ inline Group * rec(long a, const long & low)
             p->group->high = first - 1;
             
             return p->group;
-            
         }
         else
         {
             return p->group;
         }
     }
-    
 }
-
-
 
 int main() {
     int N, Q;
-    
     first = 1;
     first_group = 0;
     
     //Bost my io 2014 anversery edition 100% tested & Clean
     std::ios_base::sync_with_stdio(false);
-    
     cin >> N;
     
     long dir;
-    
     for (int i = 1; i <= N; i++)
     {
         cin >> dir;
@@ -269,18 +247,14 @@ int main() {
         rec(i, f);
     }
     
-    
     cin >> Q;
-    
+
     int a=0, b;
-    
     for (int i = 0; i<Q; i++)
     {
         cin >> a >> b;
         cout << portals[a].dist(portals[b]) << "\n";
-        
     }
-    
-    
+
     return 0;
 }
