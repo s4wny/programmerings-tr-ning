@@ -1,11 +1,12 @@
 #include <iostream>
 #include <map>
+using namespace std;
 int main()
 {
-    int M, N, a, b, price = 0,i; std::map<int, int> d;
-    std::cin >> N >> M;
+    int M, N, a, b, price = 0,i; map<int, int> d;
+    cin >> N >> M;
     for(i = 0; i<M; i++)
-    {   std::cin >> a >>b;
+    {   cin >> a >>b;
         d[a] += b;
     }
     while(N--)
@@ -13,5 +14,5 @@ int main()
         if(--d.begin()->second == 0)
             d.erase(d.begin());
     }
-    std::cout << price; return 0;
+    cout << price; return 0;
 }
