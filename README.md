@@ -52,10 +52,13 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
  - [Skridskor](https://po.kattis.com/problems/skridskor) Grafproblem / SSSP.
 
 
+##### Svåra
+ - [Brädspelet](https://po.kattis.com/problems/bradspelet)
+
+
 ### Olösta
 
 ##### Svåra
- - [Brädspelet](https://po.scrool.se/problem?aid=179)
  - [Portaler](https://po.kattis.com/problems/portaler) 
  - [Bergskedja](https://po.kattis.com/problems/bergskedja)
 
