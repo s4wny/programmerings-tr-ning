@@ -21,6 +21,12 @@ Strukturen är såhär `/uppgiftens id/ditt namn(-typ av lösning / version).[sp
 
 ### Lösta
 
+#### ?
+
+ - Uttrycket
+ - Hageltal
+ - Bingo
+
 ##### Enkla
 
  - [Casino](https://po.scrool.se/problems/casino)
