@@ -1,8 +1,7 @@
-Programmerings träning
-======================
+Programmerings träning inför programmerings olympiaden
+======================================================
 
-Vi har gjort denhär mappen för att samla lösningar till olika kattis uppgifter 
-för att ge ledtrådar för hur uppgifter ska lösas.
+Vi har gjort denhär mappen för att samla lösningar till olika [kattis](https://po.kattis.com/) ([programmerings olympiaden](http://www.progolymp.se/)) uppgifter för att ge ledtrådar för hur uppgifter ska lösas.
 
 Varsegod och lägg till egna lösningar i valfrit språk.
 Kattis tillåter följande språk:
